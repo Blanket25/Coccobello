@@ -1,0 +1,40 @@
+.me {
+    background-color: #fff;
+    width: 320px;
+    margin: 3em auto;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.me img {
+    border-radius: 50%;
+    border: solid 2px #f8f2ef;
+}
+
+.me-pic {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #A39085;
+}
+
+.me p {
+    background-color: #f8f2ef;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+@media (min-width: 600px) {
+    .me {
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+    }
+
+    .me-text {
+        margin-left: 1.6em;
+    }
+
+}

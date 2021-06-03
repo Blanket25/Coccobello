@@ -1,0 +1,122 @@
+.body-color {
+    background-color: #fff;
+}
+
+nav {
+    background-color: #f8f2ef;
+}
+
+/*===Index Recipe===*/
+
+.recipe-index {
+    border: solid 1px #b8b8bd;
+    max-width: 250px;
+    padding: 1em;
+    padding-left: 3em;
+    margin: 2em auto;
+}
+
+.index-tit {
+    color: #A39085;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.recipe-index a {
+    background-color: #f8f2ef;
+    color: #564C42;
+    padding: .5em;
+    text-decoration: none;
+    font-size: .75rem;
+    line-height: 3em;
+    text-transform: uppercase;
+}
+
+.recipe-index a:hover,
+.recipe-index a:focus,
+.recipe-index a:active {
+    text-decoration: underline;
+}
+
+/*===Recipes===*/
+
+.recipe {
+    background-color: #F7F7F7;
+    max-width: 370px;
+    margin: 4em auto;
+    padding: 1em 1.5em;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 1px #D6D9DF;
+    padding-bottom: 1em;
+    margin-right: .5em;
+}
+
+.intro {
+    margin-left: 1em;
+}
+
+.rec {
+    margin-top: .75em;
+    margin-bottom: 1em;
+}
+
+.intro .art-par {
+    color: #6c6c6e;
+    font-size: .9rem;
+}
+
+.recipe .sub {
+    margin-top: 1.5em;
+}
+
+ul, 
+ol {
+    line-height: 1.5em;
+}
+
+/*===Media Query===*/
+
+@media (min-width: 600px) {
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .recipe-index {
+        height: 197px;
+        width: 200px;
+        margin-top: 4em;
+        margin-left: 2em;
+        padding-left: .5em;
+        padding-right: 1em;
+    }   
+    
+    .index-tit {
+        margin-left: 1em;
+        margin-top: 1.5em;
+    }
+
+    .art-container {
+        width: 600px;
+    }
+    
+    .recipe {
+       width: 90%;
+       padding: 4em;
+       padding-top: 2em;
+    }
+
+    .recipe img {
+        width: 180px;
+        margin-left: 0;
+    }
+
+}
